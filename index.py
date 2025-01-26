@@ -38,9 +38,13 @@
 # for i in islamic_names:
 #      print(i)
 
-mystudents =["kainat","hira","eman","fatima","ilsa"]
-count = len(mystudents)-1
-while count >=0:
-    print(count,mystudents[count])
-    count = count -1
+# mystudents =["kainat","hira","eman","fatima","ilsa"]
+# count = len(mystudents)-1
+# while count >=0:
+#     print(count,mystudents[count])
+#     count = count -1
 
+def box(a,b):
+    return a+b
+sum=box(2, 3)
+print(sum)
