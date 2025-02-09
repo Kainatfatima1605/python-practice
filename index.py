@@ -44,7 +44,7 @@
 #     print(count,mystudents[count])
 #     count = count -1
 
-def box(a,b):
-    return a+b
-sum=box(2, 3)
-print(sum)
+# def box(a,b=8):
+#     return a+b
+# sum=box(2)
+# print(sum)
